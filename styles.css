@@ -11,6 +11,15 @@ body {
     overflow-y: auto;
 }
 
+.titulo {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
 .card {
     background: #56CCF2;
     background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
@@ -47,13 +56,14 @@ body {
 }
 
 .map-container {
+    max-width: 800px;
     width: 100%;
     text-align: center;
     position: relative;
     padding-bottom: 56.25%;
-    /* Proporción 16:9 (para mantener la relación de aspecto del mapa) */
     height: 0;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .map-container iframe {
