@@ -50,3 +50,19 @@ body {
     width: 100%;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .map-container {
+        width: 100%;
+        padding-bottom: 60%;
+        /* Ajusta este valor según tus necesidades */
+    }
+
+    .map-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
