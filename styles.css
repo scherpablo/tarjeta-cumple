@@ -105,8 +105,17 @@ h1 .titulo {
         order: 1;
     }
 
-    .map-container {
+    .button {
         order: 2;
-        margin-top: 20px;
     }
+
+    .icon {
+        order: 3;
+    }
+
+    .map-container {
+        order: 4;
+        margin-top: 10px;
+    }
+
 }
