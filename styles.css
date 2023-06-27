@@ -106,7 +106,7 @@ h1 .titulo {
     }
 }
 
-.icon {
+.animated-arrow {
     margin-bottom: 10px;
 }
 
@@ -122,7 +122,6 @@ h1 .titulo {
         transform: rotate(360deg);
     }
 }
-
 
 .map-container {
     width: 100%;
@@ -153,8 +152,9 @@ h1 .titulo {
         order: 2;
     }
 
-    .icon {
+    .animated-arrow {
         order: 3;
+        margin-top: 10px;
     }
 
     .map-container {
