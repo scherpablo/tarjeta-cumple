@@ -35,9 +35,8 @@ body {
     background: #36D1DC;
     background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);
     background: linear-gradient(to right, #5B86E5, #36D1DC);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Lilita One', cursive;
     letter-spacing: 3px;
-    border: 2px solid #000;
 }
 
 h1 .titulo {
@@ -92,6 +91,14 @@ h1 .titulo {
     font-size: larger;
     border-radius: 10px;
     animation: spin 2s infinite;
+    font-weight: bold;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #2F80ED;
+    color: #000;
+    transition: background-color 0.3s;
 }
 
 @keyframes spin {
@@ -148,7 +155,7 @@ h1 .titulo {
         order: 1;
     }
 
-    .button {
+    .divButton {
         order: 2;
     }
 
